@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Profissional - Darlan Francisco</title>
     <style>
-
+        header, main { max-width: 1000px; margin: 0 auto; background: #f0eeee; padding: 20px; margin-bottom: 20px;}
+        body {font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f9; color: #333; }
+        table {width: 90%; margin-top: 15px;}
+        th, td { border: 1px solid #0f0101; padding: 12px; text-align: left;}
+        th {background-color: #e5e8eb;}
+        caption {font-weight: bold; margin-bottom: 10px; text-align: left;}
+        .imagem-perfil { text-align: center; margin: 20px 0; }
+        .imagem-perfil img { width: 250px; height: 250px; border-radius: 50%; border: 3px solid #3498db;}
+        .lista-habilidades {display: flex; gap: 20px; list-style: none; padding: 0;}
+        .lista-habilidades li{background-color: #3498db; color: #ddd; padding: 8px 15px; border-radius: 4px;}
     </style>
 </head>
 <body>
@@ -16,8 +25,8 @@
    <main>
         <section>
             <h2>Sobre mim</h2>
-            <figure class="profile-figure">
-                <img src="https://imgur.com/a/UZd6v8C" alt="Foto de perfil de Darlan.">
+            <figure class="imagem-perfil">
+                <img src="imagens/darlan-trabalho.jpg" alt="Foto de perfil de Darlan.">
                 <figcaption>Darlan em seu ambiente de trabalho</figcaption>
             </figure>
             <p>Profissional dedicado com mais de 5 anos de experiência na criação de aplicações web escaláveis, focando em performance, acessibilidade e excelente experiência do usuário.</p>
@@ -25,7 +34,7 @@
 
         <section>
             <h2>Habilidades Técnicas</h2>
-            <ul class="skills-list">
+            <ul class="lista-habilidades">
                 <li>HTML5 Semântico</li>
                 <li>CSS3 / Flexbox / Grid</li>
                 <li>Javascript (ES6+)</li>
